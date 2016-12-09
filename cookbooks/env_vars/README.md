@@ -40,7 +40,7 @@ If Passenger is used, a Ruby wrapper script is created and the passenger_ruby di
 
 ## Setting Environment Variables ##
 
-Set environment variables in `env_vars/attributes/default.rb`. This is what the file contains by default, and you can remove or modify any of this content:
+Set environment variables in `env_vars/attributes/default.rb`. This is what the file contains by default, and you can remove or modify any of the variables defined by this hash:
 
 ```
 default[:env_vars] = {
